@@ -1,0 +1,24 @@
+{
+  "name": "11ty-esbuild-starter",
+  "version": "1.0.0",
+  "description": "A simple 11ty starter for small websites, blogs and landing pages.",
+  "author": "Siddharth Jha <siddharth99c@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "clean": "rm -rf _site",
+    "start": "npm run dev",
+    "dev": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearlysid/11ty-esbuild-starter.git"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "clean-css": "^5.3.1",
+    "esbuild": "^0.15.1",
+    "html-minifier": "^4.0.0"
+  }
+}

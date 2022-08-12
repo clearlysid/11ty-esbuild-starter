@@ -15,13 +15,13 @@ The files are structured as follows.
 ├── assets               # Public directory
 ├── .eleventy.js         # Eleventy configuration
 ├── index.html           # Entry point
-├── LICENSE							 # MIT License
-└── README.md						 # This file
+├── LICENSE              # MIT License
+└── README.md            # This file
 ```
 
 ## Notes
 
-1. The assets folder is a passthrough. Anything you add to it will be copied directly to the public site.
+1. The assets folder is a passthrough, anything in it is copied to the public site.
 2. Add global meta tags in `global.js`
 3. `main.css` in `_includes` is added inline within the default layout.
 4. All JS files in `_includes` are compiled into one `main.js` in assets.
@@ -31,6 +31,6 @@ The files are structured as follows.
 ## How to build
 
 1. Clone this repo
-2. `npm i` to install all dependencies
+2. `npm install` to install all dependencies
 3. `npm start` to spin up a server
 4. `npm run build` will build the static site in the `_site` directory
